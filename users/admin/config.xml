@@ -3,7 +3,7 @@
   <fullName>admin</fullName>
   <properties>
     <jenkins.security.ApiTokenProperty>
-      <apiToken>{AQAAABAAAAAwxaDrshcshENJQyCHykAVN2nyr+EClOkqZzMs9N29noTZiaL/nJyY+qFBm1bBArr/6/pa1YYwl87PoxUnNpN0yQ==}</apiToken>
+      <apiToken>{AQAAABAAAABwiQzccn7PNKZIUz3KTka9FPk3LYAfggwS2s6Z6ww7LH8culizlXYF+kaRKrOTwyaN+Yf+zAK1s+o/BQS+0RtiyX6ywqOc7VT8uE6TVY1Z88aMnmEpKcnCI26d6RecSSSFcLTVSpzbvP9BrFEK/Vm1+wAKRya4bVpI5yIS9eEDk5o=}</apiToken>
     </jenkins.security.ApiTokenProperty>
     <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.1.16">
       <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
@@ -34,5 +34,8 @@
     <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.21">
       <emailAddress>slawek.plamowski@gmail.com</emailAddress>
     </hudson.tasks.Mailer_-UserProperty>
+    <jenkins.security.LastGrantedAuthoritiesProperty>
+      <timestamp>0</timestamp>
+    </jenkins.security.LastGrantedAuthoritiesProperty>
   </properties>
 </user>
